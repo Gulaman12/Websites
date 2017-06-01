@@ -1,0 +1,42 @@
+/* Angelo Terminez (ater906) 8782051 */
+hr {border-width: 2px; border-style: solid; color:white;}
+h1{color: white;}
+body { background-image: url("compscibackground.jpg");
+background-attachment: fixed;}
+table{width: 100%;
+table-layout: fixed; border-spacing: 10px;}
+td, th {color:white;}
+.text{ color: white;}
+.foot{color: white;
+        bottom: 0px;
+        text-align: center;}
+.menuDropBtn {
+    background-color: #0F487E;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+.menuDropBtn:hover, .menuDropBtn:focus {
+    background-color: #1663aa;
+    cursor: pointer;}
+.dropdownMenu-content {
+    background-color: #1663aa;
+    right: 0;
+    position: absolute;
+    display: none;
+    min-width: 160px; 
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+.dropdownMenu-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+.dropdownMenu {
+    float: right;
+    right: 0;
+    position: fixed;
+    display: inline-block;}
+.dropdownMenu a:hover {background-color: #298ce8}
+.show {display:block;}

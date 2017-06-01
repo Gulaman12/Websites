@@ -1,0 +1,136 @@
+/*By Angelo Terminez(ater906) 8782051 */
+/*https://www.w3schools.com/howto/howto_css_animated_search.asp     used to make animated serachbar*/
+input[type=text] {
+	float:right;
+	width: 82px;
+	box-sizing: border-box;
+	border: 1px solid white;
+	border-radius: 4px;
+	font-size: 12px;
+	background-color: #E3F7FF;
+	padding: 8px 10px 8px 10px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	text-align: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+input[type=text]:focus {
+	width: 100%;
+}
+body{
+	background-color: #404C4C;
+	margin:0 auto 0 auto;
+}
+hr{
+	border-color:black;
+}
+
+h1{text-align: center;
+color: #404C4C}
+select{
+	background-color: #E3F7FF;
+	margin-top: 100px;
+}
+#row{
+	height: 20px;
+}
+/*https://www.w3schools.com/css/css3_buttons.asp    used to make hoverable buttons */
+#button1{
+	border: 1px solid #404C4C;
+	border-radius: 4px;
+	background-color: #E3F7FF;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+#button1:hover{
+	background-color: #404C4C;
+    color: #E3F7FF;
+}
+#button2{
+	border: 1px solid #404C4C;
+	border-radius: 4px;
+	background-color: #E3F7FF;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#button2:hover{
+	background-color: #404C4C;
+    color: #E3F7FF;
+}
+#solProblem button{
+	width: 70%;
+	border: 1px solid #404C4C;
+	border-radius: 4px;
+	background-color: #E3F7FF;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#solProblem button:hover{
+	background-color: #404C4C;
+    color: #E3F7FF;
+}
+#homeicon{
+	margin-top: 15px;
+	margin-left: 7px;
+	border: 1px solid white;
+	border-radius: 4px;
+	background-color: #E3F7FF;
+	font-size: 25px;
+}
+
+#selections{
+	text-align: center;
+	color: #404C4C;
+	font-size: 15px;
+}
+#copyright{
+	text-align: center;
+	color:  #E3F7FF;
+
+}
+#centertext{
+	width: 50%;
+	text-align: center;
+	margin:auto;
+	padding: 50px;
+}
+
+.table1{
+	color:#E3F7FF; 
+	padding-top: 30px;
+}
+.table1 table{ text-align:left; width: 50%;  margin-left:auto; margin-right:auto;}
+#problemcenter{
+	padding-top: 30px;
+}
+.header{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height:85px;
+	width: 100%;
+	background: #E3F7FF;
+	padding-left: 16px;
+	border-bottom: solid;
+	border-bottom-color: white;
+	border-width: 1px;
+
+
+}
+
+.content{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+	height: 600px;
+	background: #E3F7FF;
+	text-align: center;
+	overflow:auto;
+
+}
+
+.footer{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+	background: #404C4C;
+	height: 203px;
+	
+	}
